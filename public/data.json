@@ -9,23 +9,23 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
-    "course_name": "JavaScript Fundamentals",
+    "image": "https://i.ibb.co/1ZpKLWt/Rectangle-2-2.png",
+    "course_name": "C Programming",
     "credit": 3,
     "price": 39.99,
-    "details": "Master the basics of JavaScript programming. Includes DOM manipulation and ES6 features."
+    "details": "Learn C programming fundamentals, syntax, and problem-solving skills for software development and system programming."
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
-    "course_name": "Java Programming",
+    "image": "https://i.ibb.co/3BRrrx3/Rectangle-2-3.png",
+    "course_name": "Introduction to Algorithms",
     "credit": 4,
     "price": 59.99,
-    "details": "Comprehensive Java course covering object-oriented programming and Java development."
+    "details": "Comprehensive course covering fundamental algorithm design and analysis concepts for problem-solving in computer science."
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
+    "image": "https://i.ibb.co/vLrx3sD/Rectangle-2-4.png",
     "course_name": "C++ Programming",
     "credit": 3,
     "price": 54.99,
@@ -33,15 +33,15 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
-    "course_name": "Ruby on Rails Development",
+    "image": "https://i.ibb.co/rbK1rzP/Rectangle-2-5.png",
+    "course_name": "Software Engineering",
     "credit": 2,
     "price": 49.99,
-    "details": "Become a Ruby on Rails developer. Covers MVC architecture and web application development."
+    "details": "Learn software development methodologies, design principles, and project management for building efficient and reliable software systems."
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
+    "image": "https://i.ibb.co/4JgMBZk/Rectangle-2-6.png",
     "course_name": "HTML and CSS Basics",
     "credit": 1,
     "price": 29.99,
@@ -49,19 +49,19 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
-    "course_name": "PHP Web Development",
+    "image": "https://i.ibb.co/HV4hQSj/Rectangle-3.png",
+    "course_name": "Basic Data Structures",
     "credit": 3,
     "price": 49.99,
-    "details": "Build dynamic web applications with PHP. Learn about databases and server-side scripting."
+    "details": "Introductory course on fundamental data structure, arrays, linked lists and trees for efficient information management"
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
-    "course_name": "Swift Programming",
+    "image": "https://i.ibb.co/x1Q9Dfh/Rectangle-3-1.png",
+    "course_name": "AWS, Cloud Computing",
     "credit": 2,
     "price": 59.99,
-    "details": "Develop iOS and macOS apps with Swift. Covers iOS app development fundamentals."
+    "details": "Explore AWS services, cloud infrastructure, and best practices for scalable and cost-effective cloud computing solutions."
   },
   {
     "id": 9,
