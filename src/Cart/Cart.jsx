@@ -20,5 +20,7 @@ const Cart = ({ selectedCourse, credit, remaining }) => {
 };
 Cart.propTypes = {
   selectedCourse: PropTypes.array,
+  credit: PropTypes.number,
+  remaining: PropTypes.number,
 };
 export default Cart;

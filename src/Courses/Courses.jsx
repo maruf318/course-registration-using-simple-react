@@ -1,9 +1,15 @@
+import React from "react";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 import Cart from "../Cart/Cart";
 
 const Courses = () => {
+  const notify = () => toast("Sorry! you cant take same course again");
+  const notify1 = () => toast("Credit Limit Alert");
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [credit, setCredit] = useState([0]);
@@ -16,7 +22,9 @@ const Courses = () => {
   const handleSelect = (course) => {
     const isExist = selectedCourse.find((item) => item.id === course.id);
     if (isExist) {
-      return alert("Sorry! you cant take same course again");
+      return notify();
+
+      // alert("Sorry! you cant take same course again");
     } else {
       let total = course.credit;
       let remain = 20 - course.credit;
@@ -25,7 +33,8 @@ const Courses = () => {
         remain = remain - element.credit;
       });
       if (total > 20 || remain < 0) {
-        alert("Credit Limit Alert");
+        notify1();
+        // alert("Credit Limit Alert");
       } else {
         setCredit(total);
         setRemaining(remain);
@@ -56,6 +65,7 @@ const Courses = () => {
           ></Cart>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
