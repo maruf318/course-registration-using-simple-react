@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Course = ({ course }) => {
+const Course = ({ course, handleSelect }) => {
   // console.log(typeof course);
   return (
     <div>
@@ -25,7 +25,10 @@ const Course = ({ course }) => {
             </div>
           </div>
           <div className="card-actions ">
-            <button className="btn text-white border-none btn-primary w-full bg-[#2F80ED] capitalize">
+            <button
+              onClick={() => handleSelect(course)}
+              className="btn text-white border-none btn-primary w-full bg-[#2F80ED] capitalize"
+            >
               Select
             </button>
           </div>
@@ -36,5 +39,6 @@ const Course = ({ course }) => {
 };
 Course.propTypes = {
   course: PropTypes.object,
+  handleSelect: PropTypes.func,
 };
 export default Course;
