@@ -57,7 +57,7 @@ const Course = ({ course, handleSelect }) => {
                   strokeLinejoin="round"
                 />
               </svg>
-              <p>Credit:{course.credit}hr</p>
+              <p>Credit: {course.credit}hr</p>
             </div>
           </div>
           <div className="card-actions ">

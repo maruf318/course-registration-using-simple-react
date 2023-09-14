@@ -7,7 +7,8 @@ import Cart from "../Cart/Cart";
 
 const Courses = () => {
   const notify = () => toast("Sorry! you cant take same course again");
-  const notify1 = () => toast("Credit Limit Alert");
+  const notify1 = () =>
+    toast("Credit Limit: Warning! You cant take more than 20 credits");
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [credit, setCredit] = useState([0]);
