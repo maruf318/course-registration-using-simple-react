@@ -1,5 +1,3 @@
-import React from "react";
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
@@ -28,6 +26,7 @@ const Courses = () => {
     } else {
       let total = course.credit;
       let remain = 20 - course.credit;
+
       selectedCourse.forEach((element) => {
         total = total + element.credit;
         remain = remain - element.credit;
