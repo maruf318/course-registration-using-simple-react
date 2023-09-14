@@ -5,7 +5,7 @@
     "course_name": "Python Programming",
     "credit": 5,
     "price": 49.99,
-    "details": "Learn Python programming from scratch. Covers Python fundamentals, data structures, and more."
+    "details": "Learn Python programming from scratch. Covers Python fundamentals, data structures, data science and machine learning all using Python"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
   {
     "id": 3,
     "image": "https://i.ibb.co/3BRrrx3/Rectangle-2-3.png",
-    "course_name": "Introduction to Algorithms",
-    "credit": 4,
+    "course_name": "Algorithms for Beginners",
+    "credit": 9,
     "price": 59.99,
     "details": "Comprehensive course covering fundamental algorithm design and analysis concepts for problem-solving in computer science."
   },
@@ -29,7 +29,7 @@
     "course_name": "C++ Programming",
     "credit": 3,
     "price": 54.99,
-    "details": "Learn C++ programming with a focus on data structures and algorithms."
+    "details": "Learn C++ programming with a focus on data structures and algorithms. Also, learn to use Visual Studio Code with C++ and Live Coding Exercises, Challenge Coding Exercises and Assignments"
   },
   {
     "id": 5,
@@ -43,7 +43,7 @@
     "id": 6,
     "image": "https://i.ibb.co/4JgMBZk/Rectangle-2-6.png",
     "course_name": "HTML and CSS Basics",
-    "credit": 1,
+    "credit": 4,
     "price": 29.99,
     "details": "Fundamental web development skills with HTML and CSS. Create static web pages."
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "image": "https://i.ibb.co/m5QB7Sh/Rectangle-2-1.png",
     "course_name": "SQL Database Management",
-    "credit": 8,
+    "credit": 1,
     "price": 44.99,
     "details": "Master SQL for managing relational databases. Learn about queries, indexing, and more."
   }

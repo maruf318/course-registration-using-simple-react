@@ -13,9 +13,7 @@ const Course = ({ course, handleSelect }) => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-lg font-semibold">
-            {course.course_name}
-          </h2>
+          <h2 className="text-lg font-semibold">{course.course_name}</h2>
           <p className="text-[#1C1B1B99] text-base">{course.details}</p>
           <div className="flex justify-between text-[#1C1B1B99] text-base font-medium">
             <div className="flex">
