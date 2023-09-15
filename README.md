@@ -1,9 +1,9 @@
-Q: Add at least 3 project Features <br>
+Question: Add at least 3 project Features <br>
 Answer:
 
-- Responsive Design
-- Database Management
-- Performance Optimization
+- Programming related course registration
+- Adding the total credits and toaster show, when exceeding 20credit limit or adding the same course again.
+- Adding the course name upon clicking on the select button
 
 Question: Discuss how you managed the state in your assignment project. <br>
-Answer: I have used useState and useEffect. Mainly, I have used the useState to store my data so that I can send the data where i want. and i used useEffect to fetch json data and later I used useState to store them.
+Answer: I have used useState and useEffect. Mainly, I have used 4 useState (to store json data after fetching, to store the selected course upon clicking, to store the total credit hour and remaining credits). Later, I have send the data where in other components. And I used useEffect to fetch json data and later I used useState to store them.
